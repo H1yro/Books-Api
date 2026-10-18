@@ -80,5 +80,3 @@ Visit:
 The API was tested using Postman.
 
 The tests included retrieving books, adding new books, and checking duplicate IDs. Sending the same book ID twice results in a `409 Conflict` response.
-
-**Author:** [Your GitHub Username]
