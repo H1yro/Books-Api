@@ -2,6 +2,7 @@
 # 📚 Books API
 
 A simple REST API for managing books, built with **Python, FastAPI, and SQLite**.
+This project will also be useful for beginners who want to learn about databases and APIs.
 
 This project was created as a hands-on learning experience to practice backend development, working with databases, handling HTTP requests, and testing API endpoints.
 
@@ -27,14 +28,13 @@ This project was created as a hands-on learning experience to practice backend d
 
 ```text
 Books_API/
-├── books.py
+├── requirements.txt
 ├── database.py
 └── main.py
 ```
 
 - `main.py` — API endpoints and application logic.
 - `database.py` — database connection and database operations.
-- `books.py` — initial book data used during development.
 
 *Note: The exact role of `books.py` depends on the final project implementation.*
 
@@ -43,7 +43,7 @@ Books_API/
 **1. Clone the repository**
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/H1yro/Books-Api.git>
 cd Books_API
 ```
 
