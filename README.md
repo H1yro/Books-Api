@@ -73,6 +73,7 @@ Visit:
 | GET | `/` | Root endpoint |
 | GET | `/books` | Retrieve all books |
 | POST | `/books` | Add a new book |
+| DELETE | `/books/{book_id}` | Delete a book by ID |
 | GET | `/hello` | Simple greeting endpoint |
 
 ## 🧪 Testing
