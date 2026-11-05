@@ -38,7 +38,7 @@ def delete_book(book_id):
 
     cursor.execute(
         "DELETE FROM books WHERE id = ?",
-        (book_id)
+        (book_id,)
     )
 
     connection.commit()
