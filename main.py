@@ -52,6 +52,6 @@ def handle_delete_book(book_id: int):
             detail="Ошибка! Книга с такм ID не найдена"
         )
     
-    delete_book()
+    delete_book(book_id)
 
     return {"message": "Книга успешно удалена."}
