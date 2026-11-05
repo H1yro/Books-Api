@@ -54,4 +54,4 @@ def handle_delete_book(book_id: int):
     
     delete_book()
 
-    return {"message": "Книга успешно добавлена."}
+    return {"message": "Книга успешно удалена."}
